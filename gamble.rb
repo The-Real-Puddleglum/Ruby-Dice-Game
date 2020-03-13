@@ -86,7 +86,7 @@ while question1 != 'o' do
         total_wager2 = frank_money + patricia_money + player_money2
         puts "Frank put $#{frank_money} on the table"
         puts "Patricia put $#{patricia_money} on the table."
-        puts "Total money on the table is #{total_wager2}"
+        puts "Total money on the table is $#{total_wager2}"
         puts "To continue press C."
         start2 = $stdin.gets.chomp
         if start2 == 'c'
@@ -144,9 +144,9 @@ while question1 != 'o' do
         james_money = rand(0...100)
         total_wager3 = frank_money + patricia_money + james_money + player_money3
         puts "OK, you've put $#{player_money3} on the table"
-        puts "Frank puts #{frank_money} on the table."
-        puts "Patricia puts #{patricia_money} on the table."
-        puts "James puts #{james_money} on the table."
+        puts "Frank puts $#{frank_money} on the table."
+        puts "Patricia puts $#{patricia_money} on the table."
+        puts "James puts $#{james_money} on the table."
         puts "Total money on the table is $#{total_wager3}."
         puts "To continue please press c."
         start3 = $stdin.gets.chomp
